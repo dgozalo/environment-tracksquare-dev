@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDDDCCAfSgAwIBAgIRAMnqu/6JEhNCbtVJ2/wZeOIwDQYJKoZIhvcNAQELBQAw
+    LzEtMCsGA1UEAxMkZDQyYTNkZDktZWVjZC00YTNjLTk2ODctZDQ5OTQ0MzI1NzNh
+    MB4XDTE5MDUwOTE3MDMwM1oXDTI0MDUwNzE4MDMwM1owLzEtMCsGA1UEAxMkZDQy
+    YTNkZDktZWVjZC00YTNjLTk2ODctZDQ5OTQ0MzI1NzNhMIIBIjANBgkqhkiG9w0B
+    AQEFAAOCAQ8AMIIBCgKCAQEAsfAWimq/T/24GwllCUGgA/8y/chdcHxc3WjjicPY
+    EunB19Rz3VNdAN1HSkbtym+93+IHaLs8vH5TY6RGe0j7hHFAgbHqyX+/q9A1+lPC
+    qyS2/Rj79ZhF7NFOnDBr9IVx6nlvqjgj6VPoGjKEKuKfvlOlM3iM2vYXHnKZ2c3Z
+    BY43rFG8tupyFgnCYQxKFzvdV7pdH/Oys5Mbj819ddj9RCAIK/kcox4/WHf6nNd6
+    068Rs0w8DwBlO1l+8OObtEb+eW4Pl8G1WiwiiDPlGwEfuSkWFj4Ga8BngwqQmcBs
+    0WEYxRMYcFOXo2pOogBJWSR/yehnd146a8GHHesWKQKPqQIDAQABoyMwITAOBgNV
+    HQ8BAf8EBAMCAgQwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA
+    nwD+K1ON/QTCPFStcJbhWSQRXkpqvNuDlJRxSGn97tCN+WawC4jxfDadYIVRkrX0
+    yNMyQRGdl1Uf3F56m6vXg8AyxcfFjcFfdkjzWL9K+/P6w6tZeERycf4+6XWnCduc
+    R3P13BZd0uVVs/ET3SnD+d9Q6p5npg5w01PafD47cPzUKk4pu5zD3pZGLGgk9nfE
+    KuNnXDOPLjW0Y1H/LM7jiLxBNIGNnuC05ad7GL3W1DvS63xjMSjbvb3qmsPob9lZ
+    kim5b1AABf1gaR7OX7IAanViqo3DUhp3Im15BFxb+jQuai1gvzDOs2H/U7Mga3Cr
+    llpHR7v75t3YWXYO4EJJtw==
+    -----END CERTIFICATE-----
+  clusterName: tracksquare
+  jx-install-version: 2.0.0-dev+e0e2434db
+  kubeProvider: gke
+  projectID: apps-dev-229310
+  region: ""
+  secretsLocation: vault
+  server: https://35.187.78.101
+  systemVaultName: jx-vault-tracksquare
+  zone: europe-west1-c
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
